@@ -18,6 +18,10 @@ target/
 *.iws
 *.iml
 *.ipr
+out/
+
+### VS Code ###
+.vscode/
 
 ### NetBeans ###
 /nbproject/private/
@@ -29,5 +33,26 @@ build/
 !**/src/main/**/build/
 !**/src/test/**/build/
 
-### VS Code ###
-.vscode/
+### macOS ###
+.DS_Store
+
+### Logs ###
+*.log
+logs/
+
+### Env ###
+.env
+.env.local
+
+### Other ###
+temp/
+tmp/
+*.bak
+*.swp
+thumb.db
+
+### Local Docker Volumes (if using bind mounts in future) ###
+sqlserver_data/
+mysql_data/
+postgres_data/
+mongo_data/
