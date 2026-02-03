@@ -56,3 +56,8 @@ sqlserver_data/
 mysql_data/
 postgres_data/
 mongo_data/
+
+### Agent & BMAD ###
+_bmad/
+_bmad-output/
+.agent/
