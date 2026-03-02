@@ -41,7 +41,8 @@ build/
 logs/
 
 ### Env ###
-
+.env
+.env.local
 
 ### Other ###
 temp/
